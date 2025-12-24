@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guitar Chord Sheets</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f5f5f5;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+            font-size: 2em;
+        }
+        
+        .subtitle {
+            color: #7f8c8d;
+            margin-bottom: 30px;
+            font-size: 1.1em;
+        }
+        
+        .song-list {
+            list-style: none;
+            margin-bottom: 50px;
+        }
+        
+        .song-list li {
+            margin-bottom: 15px;
+        }
+        
+        .song-list a {
+            display: block;
+            padding: 15px 20px;
+            background: #3498db;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s;
+            font-size: 1.1em;
+        }
+        
+        .song-list a:hover {
+            background: #2980b9;
+        }
+        
+        .song-list a:active {
+            background: #21618c;
+        }
+        
+        .chord-sheet {
+            margin-bottom: 60px;
+            padding-top: 20px;
+            border-top: 3px solid #ecf0f1;
+        }
+        
+        .chord-sheet h2 {
+            color: #2c3e50;
+            margin-bottom: 5px;
+        }
+        
+        .artist {
+            color: #7f8c8d;
+            font-style: italic;
+            margin-bottom: 20px;
+        }
+        
+        .chord-content {
+            font-family: 'Courier New', monospace;
+            white-space: pre-wrap;
+            line-height: 1.8;
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+        
+        .chord {
+            color: #e74c3c;
+            font-weight: bold;
+        }
+        
+        .back-to-top {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background: #95a5a6;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 0.9em;
+        }
+        
+        .back-to-top:hover {
+            background: #7f8c8d;
+        }
+        
+        @media (max-width: 600px) {
+            body {
+                padding: 10px;
+            }
+            
+            .container {
+                padding: 20px;
+            }
+            
+            h1 {
+                font-size: 1.5em;
+            }
+            
+            .chord-content {
+                font-size: 0.9em;
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎸 Guitar Chord Sheets</h1>
+        <p class="subtitle">Tap any song to jump to the chords</p>
+        
+        <ul class="song-list">
+            <li><a href="#yesterday">Yesterday - The Beatles</a></li>
+            <li><a href="#hey-jude">Hey Jude - The Beatles</a></li>
+            <li><a href="#i-want-it-that-way">I Want It That Way - Backstreet Boys</a></li>
+            <li><a href="#let-it-be">Let It Be - The Beatles</a></li>
+        </ul>
+        
+        <!-- Song 1 -->
+        <div id="yesterday" class="chord-sheet">
+            <h2>Yesterday</h2>
+            <p class="artist">The Beatles</p>
+            <div class="chord-content">
+<span class="chord">F</span>
+Yesterday, all my troubles seemed so far away
+<span class="chord">Em7</span>    <span class="chord">A7</span>           <span class="chord">Dm</span>    <span class="chord">Dm/C</span>
+Now it looks as though they're here to stay
+<span class="chord">Bb</span>    <span class="chord">C</span>      <span class="chord">F</span>
+Oh, I believe in yesterday
+
+<span class="chord">F</span>
+Suddenly, I'm not half the man I used to be
+<span class="chord">Em7</span>      <span class="chord">A7</span>        <span class="chord">Dm</span>    <span class="chord">Dm/C</span>
+There's a shadow hanging over me
+<span class="chord">Bb</span>    <span class="chord">C</span>      <span class="chord">F</span>
+Oh, yesterday came suddenly
+
+Chorus:
+<span class="chord">Em7</span> <span class="chord">A7</span>  <span class="chord">Dm</span>  <span class="chord">C</span>  <span class="chord">Bb</span>  <span class="chord">Dm</span>  <span class="chord">Gm</span>  <span class="chord">C</span>  <span class="chord">F</span>
+Why  she had to  go  I don't know, she wouldn't say
+<span class="chord">Em7</span> <span class="chord">A7</span>  <span class="chord">Dm</span>  <span class="chord">C</span>  <span class="chord">Bb</span>  <span class="chord">Dm</span>  <span class="chord">Gm</span>  <span class="chord">C</span>  <span class="chord">F</span>
+I    said something wrong, now I   long for yesterday
+            </div>
+            <a href="#" class="back-to-top">↑ Back to top</a>
+        </div>
+        
+        <!-- Song 2 -->
+        <div id="hey-jude" class="chord-sheet">
+            <h2>Hey Jude</h2>
+            <p class="artist">The Beatles</p>
+            <div class="chord-content">
+<span class="chord">F</span>                 <span class="chord">C</span>
+Hey Jude, don't make it bad
+         <span class="chord">C7</span>   <span class="chord">C7sus4</span>     <span class="chord">C7</span>      <span class="chord">F</span>
+Take a sad song and make it better
+   <span class="chord">Bb</span>                      <span class="chord">F</span>
+Remember to let her into your heart
+                 <span class="chord">C</span>                <span class="chord">F</span>
+Then you can start to make it better
+
+<span class="chord">F</span>                  <span class="chord">C</span>
+Hey Jude, don't be afraid
+         <span class="chord">C7</span>  <span class="chord">C7sus4</span>      <span class="chord">C7</span>     <span class="chord">F</span>
+You were made to go out and get her
+    <span class="chord">Bb</span>                        <span class="chord">F</span>
+The minute you let her under your skin
+            <span class="chord">C</span>                <span class="chord">F</span>    <span class="chord">F7</span>
+Then you begin to make it better
+
+Bridge:
+    <span class="chord">Bb</span>         <span class="chord">Bb/A</span>  <span class="chord">Gm</span>
+And anytime you feel the pain
+<span class="chord">Gm/F</span>      <span class="chord">C/E</span>   <span class="chord">C</span>
+Hey Jude, refrain
+                <span class="chord">C7</span>  <span class="chord">C7sus4</span>     <span class="chord">C7</span>      <span class="chord">F</span>    <span class="chord">F7</span>
+Don't carry the world upon your shoulders
+    <span class="chord">Bb</span>         <span class="chord">Bb/A</span>    <span class="chord">Gm</span>
+For well you know that it's a fool
+<span class="chord">Gm/F</span>        <span class="chord">C/E</span>    <span class="chord">C</span>
+Who plays it cool
+           <span class="chord">C7</span>   <span class="chord">C7sus4</span>  <span class="chord">C7</span>    <span class="chord">F</span>
+By making his world a little colder
+
+Outro:
+<span class="chord">F</span>        <span class="chord">Eb</span>           <span class="chord">Bb</span>                <span class="chord">F</span>
+Na na na na-na-na-na, na-na-na-na, hey Jude
+(Repeat and fade)
+            </div>
+            <a href="#" class="back-to-top">↑ Back to top</a>
+        </div>
+        
+        <!-- Song 3 -->
+        <div id="i-want-it-that-way" class="chord-sheet">
+            <h2>I Want It That Way</h2>
+            <p class="artist">Backstreet Boys</p>
+            <div class="chord-content">
+<span class="chord">F#m</span>                <span class="chord">D</span>
+You are my fire
+<span class="chord">A</span>                  <span class="chord">E</span>
+The one desire
+<span class="chord">F#m</span>                <span class="chord">D</span>
+Believe when I say
+<span class="chord">A</span>           <span class="chord">E</span>
+I want it that way
+
+<span class="chord">F#m</span>              <span class="chord">D</span>
+But we are two worlds apart
+<span class="chord">A</span>                    <span class="chord">E</span>
+Can't reach to your heart
+<span class="chord">F#m</span>              <span class="chord">D</span>
+When you say
+<span class="chord">A</span>           <span class="chord">E</span>
+I want it that way
+
+Chorus:
+         <span class="chord">D</span>                <span class="chord">E</span>        <span class="chord">F#m</span>
+Tell me why, ain't nothing but a heartache
+         <span class="chord">D</span>                <span class="chord">E</span>        <span class="chord">F#m</span>
+Tell me why, ain't nothing but a mistake
+         <span class="chord">D</span>                <span class="chord">E</span>        <span class="chord">A</span>
+Tell me why, I never wanna hear you say
+<span class="chord">F#m</span>      <span class="chord">E</span>    <span class="chord">A</span>
+I want it that way
+            </div>
+            <a href="#" class="back-to-top">↑ Back to top</a>
+        </div>
+        
+        <!-- Song 4 - Example with Image -->
+        <div id="let-it-be" class="chord-sheet">
+            <h2>Let It Be</h2>
+            <p class="artist">The Beatles</p>
+            <div class="chord-content">
+<span class="chord">C</span>                <span class="chord">G</span>
+When I find myself in times of trouble
+<span class="chord">Am</span>          <span class="chord">F</span>
+Mother Mary comes to me
+<span class="chord">C</span>                <span class="chord">G</span>
+Speaking words of wisdom
+<span class="chord">F</span>  <span class="chord">C</span>
+Let it be
+
+<span class="chord">C</span>              <span class="chord">G</span>
+And in my hour of darkness
+       <span class="chord">Am</span>              <span class="chord">F</span>
+She is standing right in front of me
+<span class="chord">C</span>                <span class="chord">G</span>
+Speaking words of wisdom
+<span class="chord">F</span>  <span class="chord">C</span>
+Let it be
+
+Chorus:
+<span class="chord">Am</span>         <span class="chord">G</span>          <span class="chord">F</span>          <span class="chord">C</span>
+Let it be, let it be, let it be, let it be
+<span class="chord">C</span>               <span class="chord">G</span>
+Whisper words of wisdom
+<span class="chord">F</span>  <span class="chord">C</span>
+Let it be
+
+<strong>Guitar Solo:</strong>
+            </div>
+            
+            <img src="https://via.placeholder.com/600x300/3498db/ffffff?text=Upload+Let+It+Be+Solo+Tab+Here" 
+                 alt="Let It Be guitar solo tab" 
+                 style="max-width: 100%; height: auto; margin: 20px 0; border-radius: 5px; border: 2px dashed #3498db;">
+            
+            <div class="chord-content">
+<span class="chord">C</span>              <span class="chord">G</span>
+And when the broken hearted people
+<span class="chord">Am</span>              <span class="chord">F</span>
+Living in the world agree
+<span class="chord">C</span>                <span class="chord">G</span>
+There will be an answer
+<span class="chord">F</span>  <span class="chord">C</span>
+Let it be
+            </div>
+            <a href="#" class="back-to-top">↑ Back to top</a>
+        </div>
+        
+        <p style="text-align: center; color: #95a5a6; margin-top: 40px;">
+            Add your own chord sheets by editing this HTML file
+        </p>
+    </div>
+</body>
+</html>
