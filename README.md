@@ -8,11 +8,11 @@ This is a simple web-based chord sheet viewer designed for quick access on smart
 
 ## Songs Included
 
-A mix of personal favorites including:
-- The Beatles
-- Jeff Buckley
-- Backstreet Boys
-- And more...
+A mix of songs in all four languages
+- English
+- Mandarin
+- Japanese
+- Cantonese
 
 ## Usage
 
